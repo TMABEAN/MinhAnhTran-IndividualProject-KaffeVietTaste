@@ -1,2 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap');
 
+/* Learn from ChatGPT - root*/
+:root {
+  --black: #111111;
+  --white: #f7f3ee;
+  --cream: #ede7de;
+  --brown: #6f4e37;
+  --brown-dark: #4e3526;
+  --accent: #c07a3b;
+  --gray: #7d756d;
+  --border: #ddd4c8;
+
+  --font-title: 'Bebas Neue', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Learn from ChatGPT */
+  --radius: 6px;
+  --shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  --transition: 0.25s ease; 
+}
+
