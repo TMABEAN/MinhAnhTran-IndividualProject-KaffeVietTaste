@@ -52,3 +52,13 @@ nav {
   flex-wrap: wrap;
   gap: 60px;
 }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color var(--transition);
+}
