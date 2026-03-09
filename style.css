@@ -138,3 +138,19 @@ footer {
     gap: 20px;
     justify-items: center;
     }
+
+/* ===== MENU PAGE ===== */
+
+/* Main content container for the menu page */
+    main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    }
+
