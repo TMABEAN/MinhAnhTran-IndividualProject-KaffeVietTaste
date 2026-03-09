@@ -161,3 +161,24 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     }
+
+/* ==== EFFECTS ==== */  
+
+    /* Navigation hover effect - tí add */
+        nav a:hover {
+        color: var(--cream);
+        }
+
+
+    /* Hover animation for product cards */
+    .product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    }
+
+    /* Button hover animation */
+        button:hover {
+        background-color: var(--brown-dark);
+        transform: translateY(-1px);
+        }
+
