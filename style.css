@@ -62,3 +62,13 @@ nav a {
   text-transform: uppercase;
   transition: color var(--transition);
 }
+
+/* Footer styling */
+footer {
+  background-color: var(--brown-dark);
+  color: var(--cream);
+  text-align: center;
+  padding: 24px 16px;
+  margin-top: 50px;
+  font-size: 14px;
+}
