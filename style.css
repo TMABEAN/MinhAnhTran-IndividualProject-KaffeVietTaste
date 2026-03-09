@@ -98,6 +98,28 @@ main p {
     transition: background-color var(--transition), transform var(--transition);
     }
 
+/* Individual product card styling */
+    /* Product card box */
+    .product-card {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;   
+    width: 220px;          
+    text-align: center;
+    margin: auto;
+    }
+
+    /* Product image */
+    .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;   
+    }
+
+    .product-card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
 
 /* Footer styling */
 footer {
