@@ -63,6 +63,12 @@ nav a {
   transition: color var(--transition);
 }
 
+/* Main content container */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Footer styling */
 footer {
   background-color: var(--brown-dark);
