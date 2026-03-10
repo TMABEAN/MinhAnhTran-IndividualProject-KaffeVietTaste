@@ -321,6 +321,18 @@ footer {
         }
 
 /* ===== RESPONSIVE PRODUCT DETAIL ===== */
-@media (max-width: 768px)
+    @media (max-width: 768px)
+    .product-detail {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .product-detail-info .description {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    text-align: center;
+    }
     
     
