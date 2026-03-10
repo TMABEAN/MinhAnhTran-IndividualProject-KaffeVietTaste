@@ -162,6 +162,26 @@ footer {
     font-size: 2rem;
     }
 
+/* ==== EFFECTS ==== */  
+
+    /* Navigation hover effect - tí add */
+        nav a:hover {
+        color: var(--cream);
+        }
+
+
+    /* Hover animation for product cards */
+    .product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    }
+
+    /* Button hover animation */
+        button:hover {
+        background-color: var(--brown-dark);
+        transform: translateY(-1px);
+        }
+
 /* ===== PRODUCTS' CARDS GRID ===== */
    
     .product-grid {
@@ -182,23 +202,26 @@ footer {
     }
     }
 
-/* ==== EFFECTS ==== */  
-
-    /* Navigation hover effect - tí add */
-        nav a:hover {
-        color: var(--cream);
-        }
-
-
-    /* Hover animation for product cards */
-    .product-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    /* Tablet */
+    @media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Button hover animation */
-        button:hover {
-        background-color: var(--brown-dark);
-        transform: translateY(-1px);
-        }
+    .product-card img {
+        height: 200px;
+    }
+    }
+
+    /* Mobile */
+    @media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card img {
+        height: 220px;
+    }
+    }
+
 
