@@ -335,4 +335,23 @@ footer {
     text-align: center;
     }
     
+
+    .product-detail-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    margin-top: 14px;
+    display: block;
+    }
+
+    .product-detail-info h2,
+    .product-detail-info .price,
+    .product-detail-info .description {
+        width: 100%;
+    }
+
+    .product-detail-info .description {
+        text-align: justify;
+    }
+    }
     
