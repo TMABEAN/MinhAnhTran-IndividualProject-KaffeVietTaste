@@ -170,6 +170,18 @@ footer {
     gap: 24px;
     }
 
+/* ===== RESPONSIVE ===== */
+    /* Desktop > 1024px
+    Tablet 768px – 1024px
+    Mobile < 768px */
+
+    /* Laptop */
+    @media (max-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    }
+
 /* ==== EFFECTS ==== */  
 
     /* Navigation hover effect - tí add */
