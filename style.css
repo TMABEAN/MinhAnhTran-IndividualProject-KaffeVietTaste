@@ -295,5 +295,29 @@ footer {
           gap: 15px;
           flex-wrap: wrap;
         }
-        
 
+    /* Button style */
+        .btn {
+          display: inline-block;
+          padding: 12px 22px;
+          background: #8b4513;
+          color: white;
+          text-decoration: none;
+          border-radius: 10px;
+          font-weight: bold;
+        }
+        
+        .btn:hover {
+          background: #6f3510;
+        }
+        
+        .btn-secondary {
+          background: #d9c3a5;
+          color: #333;
+        }
+        
+        .btn-secondary:hover {
+          background: #c9ae89;
+        }
+    
+    
