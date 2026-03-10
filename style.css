@@ -319,5 +319,8 @@ footer {
         .btn-secondary:hover {
           background: #c9ae89;
         }
+
+/* ===== RESPONSIVE PRODUCT DETAIL ===== */
+@media (max-width: 768px)
     
     
