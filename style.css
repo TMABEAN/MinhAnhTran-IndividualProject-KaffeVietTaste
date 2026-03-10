@@ -257,3 +257,8 @@ footer {
     color: var(--accent);
     margin-bottom: 24px;
     }
+
+/* ===== PRODUCT DETAIL PAGE ===== */
+    .product-detail-page {
+      padding: 40px 20px;
+    }
