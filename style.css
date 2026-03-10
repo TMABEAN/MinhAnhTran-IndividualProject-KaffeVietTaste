@@ -106,6 +106,14 @@ main p {
       margin-top: 32px;
     }
 
+    /* Grid layout */
+    .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 món mỗi hàng */
+    gap: 20px;
+    justify-items: center;
+    }
+
 /* Individual product card styling */
     /* Product card box */
     .product-card {
