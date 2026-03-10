@@ -224,4 +224,23 @@ footer {
     }
     }
 
+/* ==== PRODUCTS' DETAIL PAGE ====*/
+    .product-detail-page {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    }
 
+    .product-detail-image img {
+    width: 65%;
+    height: 70%;
+    margin: auto 20px;
+    border-radius: 9px;
+    align-self: start;
+    }
+
+    .product-detail-info {
+    max-width: 500px;
+    }
