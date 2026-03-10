@@ -354,4 +354,16 @@ footer {
         text-align: justify;
     }
     }
-    
+
+    .product-detail-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: nowrap;
+    width: 100%;
+    }
+
+    .product-detail-buttons .btn {
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+    }
