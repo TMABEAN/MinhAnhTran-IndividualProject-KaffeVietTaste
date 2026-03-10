@@ -147,14 +147,6 @@ footer {
   font-size: 14px;
 }
 
-/* Grid layout */
-    .product-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 món mỗi hàng */
-    gap: 20px;
-    justify-items: center;
-    }
-
 /* ===== MENU PAGE ===== */
 
 /* Main content container for the menu page */
