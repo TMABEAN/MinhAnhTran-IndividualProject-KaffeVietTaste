@@ -244,3 +244,16 @@ footer {
     .product-detail-info {
     max-width: 500px;
     }
+
+    .product-detail-info h2 {
+    font-family: var(--font-title);
+    font-size: 28px;
+    margin-bottom: 16px;
+    text-align: left;
+    }
+
+    .product-detail-info p.price {
+    font-size: 24px;
+    color: var(--accent);
+    margin-bottom: 24px;
+    }
