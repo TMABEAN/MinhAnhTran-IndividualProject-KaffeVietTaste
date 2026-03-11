@@ -149,7 +149,20 @@
             <h3>Vietnamese Iced Milk Coffee</h3>
             <p>Sweet iced coffee with condensed milk</p>
             <p>Price: $3</p>
-            <button onclick="addToCart('Vietnamese Iced Milk Coffee', 3)">Add to cart</button>
+            
+            <!-- Quantity control of Vietnamese Iced Milk Coffee -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('iced-milk-coffee')">-</button>
+                    <span id="qty-iced-milk-coffee">0</span>
+                    <button type="button" onclick="increaseCardQty('iced-milk-coffee')">+</button>
+                </div>
+            </div>
+            
+            <button type="button" onclick="addCardToCart('iced-milk-coffee', 'Vietnamese Iced Milk Coffee', 3)">
+            Add to Cart
+            </button>
+          
         </div>
 
 
