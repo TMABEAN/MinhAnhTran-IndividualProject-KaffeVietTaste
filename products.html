@@ -107,8 +107,20 @@
             <h3>Vietnamese Black Coffee</h3>
             <p>Bold, rich traditional Vietnamese coffee</p>
             <p>Price: $3</p>
-            <button onclick="addToCart('Vietnamese Black Coffee', 3)">Add to cart</button>
-            <!-- Button on click: Learn from ChatGPT -->
+            
+            <!-- Quantity control of Vietnamese Black Coffee -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('black-coffee')">-</button>
+                    <span id="qty-black-coffee">0</span>
+                    <button type="button" onclick="increaseCardQty('black-coffee')">+</button>
+                </div>
+            </div>
+
+            <button type="button" onclick="addCardToCart('black-coffee', 'Vietnamese Black Coffee', 3)">
+            Add to Cart
+            </button>
+          
         </div>
 
         <div class="product-card">
