@@ -47,8 +47,16 @@
         sweet and silky finish.
         </p>
 
+        <div class="quantity-box">
+          <div class="quantity-control">
+              <button type="button" onclick="decreaseCardQty('egg-coffee')">-</button>
+              <span id="qty-egg-coffee">0</span>
+              <button type="button" onclick="increaseCardQty('egg-coffee')">+</button>
+          </div>
+        </div>
+
         <div class="product-detail-buttons">
-          <a href="cart.html" class="btn">Add to Cart</a>
+          <button class="btn" onclick="addDetailToCart()">Add to Cart</button>
           <a href="products.html" class="btn btn-secondary">Back to Menu</a>
         </div>
         
