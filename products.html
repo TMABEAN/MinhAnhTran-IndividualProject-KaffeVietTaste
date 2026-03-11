@@ -65,7 +65,20 @@
             <h3>Salted Coffee</h3>
             <p>Creamy salted foam over smooth coffee</p>
             <p>Price: $4</p>
-            <button onclick="addToCart('Salted Coffee', 4)">Add to cart</button>
+
+            <!-- Quantity control of Salted coffee -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('salt-coffee')">-</button>
+                    <span id="qty-salt-coffee">0</span>
+                    <button type="button" onclick="increaseCardQty('salt-coffee')">+</button>
+                </div>
+            </div>
+
+            <button type="button" onclick="addCardToCart('salt-coffee', 'Salted Coffee', 4)">
+            Add to Cart
+            </button>
+
         </div>
 
         <div class="product-card">
