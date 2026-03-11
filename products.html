@@ -213,7 +213,20 @@
             <h3>Kumquat Tea</h3>
             <p>Tangy kumquat tea, fresh and cool</p>
             <p>Price: $3</p>
-            <button onclick="addToCart('Kumquat Tea', 3)">Add to cart</button>
+           
+            <!-- Quantity control of Kumquat Tea -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('kumquat-tea')">-</button>
+                    <span id="qty-kumquat-tea">0</span>
+                    <button type="button" onclick="increaseCardQty('kumquat-tea')">+</button>
+                </div>
+            </div>
+            
+            <button type="button" onclick="addCardToCart('kumquat-tea', 'Kumquat Tea', 3)">
+            Add to Cart
+            </button>
+          
         </div>
 
          <div class="product-card">
