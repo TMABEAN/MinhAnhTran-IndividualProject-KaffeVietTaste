@@ -40,9 +40,17 @@
 
         </p>
 
-   <!-- Buttons -->
+       <!-- Buttons -->
+        <div class="quantity-box">
+          <div class="quantity-control">
+              <button type="button" onclick="decreaseCardQty('salt-coffee')">-</button>
+              <span id="qty-salt-coffee">1</span>
+              <button type="button" onclick="increaseCardQty('salt-coffee')">+</button>
+          </div>
+        </div>
+
         <div class="product-detail-buttons">
-          <a href="cart.html" class="btn">Add to Cart</a>
+          <button class="btn" onclick="addCardToCart('salt-coffee', 'Salted Coffee', 4)">Add to Cart</button>
           <a href="products.html" class="btn btn-secondary">Back to Menu</a>
         </div>
         
