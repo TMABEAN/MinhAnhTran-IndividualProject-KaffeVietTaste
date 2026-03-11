@@ -86,7 +86,20 @@
             <h3>Vietnamese Coconut Coffee</h3>
             <p>Creamy coconut blended with coffee</p>
             <p>Price: $4</p>
-            <button onclick="addToCart('Vietnamese Coconut Coffee', 4)">Add to cart</button>
+
+            <!-- Quantity control of Coconut coffee -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('coconut-coffee')">-</button>
+                    <span id="qty-coconut-coffee">0</span>
+                    <button type="button" onclick="increaseCardQty('coconut-coffee')">+</button>
+                </div>
+            </div>
+            
+            <button type="button" onclick="addCardToCart('coconut-coffee', 'Vietnamese Coconut Coffee', 4)">
+            Add to Cart
+            </button>
+
         </div>
         
         <div class="product-card">
