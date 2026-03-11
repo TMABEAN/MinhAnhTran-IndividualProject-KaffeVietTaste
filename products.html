@@ -171,7 +171,20 @@
             <h3>Bac Xiu</h3>
             <p>Light coffee with sweet milk flavor</p>
             <p>Price: $4</p>
-            <button onclick="addToCart('Bac Xiu', 4)">Add to cart</button>
+
+            <!-- Quantity control of Bac Xiu -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('bac-xiu')">-</button>
+                    <span id="qty-bac-xiu">0</span>
+                    <button type="button" onclick="increaseCardQty('bac-xiu')">+</button>
+                </div>
+            </div>
+            
+            <button type="button" onclick="addCardToCart('bac-xiu', 'Bac Xiu', 4)">
+            Add to Cart
+            </button>
+          
         </div>
 
         <div class="product-card">
