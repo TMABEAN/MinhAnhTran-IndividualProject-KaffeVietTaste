@@ -41,7 +41,20 @@
             <h3>Vietnamese Egg Coffee</h3>
             <p>Silky egg cream over hot coffee</p>
             <p>Price: $5</p>
-            <button onclick="addToCart('Vietnamese Egg Coffee', 5)">Add to cart</button>
+           
+           <!-- Quantity control of Egg coffee -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('egg-coffee')">-</button>
+                    <span id="qty-egg-coffee">0</span>
+                    <button type="button" onclick="increaseCardQty('egg-coffee')">+</button>
+                </div>
+            </div>
+
+            <button type="button" onclick="addCardToCart('egg-coffee', 'Vietnamese Egg Coffee', 5)">
+            Add to Cart
+            </button>
+           
         </div>
 
         <div class="product-card">
