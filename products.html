@@ -276,7 +276,20 @@
             <h3>Lotus Tea</h3>
             <p>Fragrant Vietnamese lotus infused tea.</p>
             <p>Price: $3</p>
-            <button onclick="addToCart('Lotus Tea', 3)">Add to cart</button>
+            
+            <!-- Quantity control of Lotus Tea -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('lotus-tea')">-</button>
+                    <span id="qty-lotus-tea">0</span>
+                    <button type="button" onclick="increaseCardQty('lotus-tea')">+</button>
+                </div>
+            </div>
+
+            <button type="button" onclick="addCardToCart('lotus-tea', 'Lotus Tea', 3)">
+            Add to Cart
+            </button>
+          
         </div>
     
     </div>
