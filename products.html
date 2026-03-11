@@ -128,7 +128,20 @@
             <h3>Vietnamese Drip Coffee</h3>
             <p>Slow-dripped coffee with deep aroma</p>
             <p>Price: $3</p>
-            <button onclick="addToCart('Vietnamese Drip Coffee', 3)">Add to cart</button>
+
+            <!-- Quantity control of Vietnamese Drip Coffee -->
+            <div class="quantity-box">
+                <div class="quantity-control">
+                    <button type="button" onclick="decreaseCardQty('drip-coffee')">-</button>
+                    <span id="qty-drip-coffee">0</span>
+                    <button type="button" onclick="increaseCardQty('drip-coffee')">+</button>
+                </div>
+            </div>
+
+            <button type="button" onclick="addCardToCart('drip-coffee', 'Vietnamese Drip Coffee', 3)">
+            Add to Cart
+            </button>
+          
         </div>
 
         <div class="product-card">
