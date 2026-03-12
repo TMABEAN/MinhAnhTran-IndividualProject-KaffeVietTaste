@@ -69,6 +69,15 @@
         `;
         return;
       }
+
+      // Variable for all cart items + total price
+      let html = "";
+      let total = 0;
+
+      /* Loop through each product in cart */
+      cart.forEach(item => {
+        const subtotal = item.price * item.quantity;
+        total += subtotal; // Add subtotal into final total
   
 
 
