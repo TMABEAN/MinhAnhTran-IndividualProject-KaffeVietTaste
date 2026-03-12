@@ -486,6 +486,15 @@ main p {
     white-space: nowrap;
     }
 
+/* ===== CART PAGE ===== */
+.cart-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+
+
 
 
 /* HERO IMAGE IN BACKGROUND */ 
