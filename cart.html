@@ -59,6 +59,16 @@
     function renderCart() {
       const cart = getCart();
       const cartContent = document.getElementById("cart-content");
+
+    // Cart is empty => empty message 
+      if (cart.length === 0) {
+        cartContent.innerHTML = `
+          <div class="receipt-empty">
+            <p>Your cart is empty.</p>
+          </div>
+        `;
+        return;
+      }
   
 
 
