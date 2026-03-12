@@ -121,6 +121,16 @@
       // Insert the full HTML into cart-content
       cartContent.innerHTML = html;
     }
+
+/* =========================
+    INCREASE ITEM QUANTITY
+    ========================== */
+
+    function handleIncrease(id) {
+      increaseItem(id);
+      renderCart();
+      updateCartCount();
+    }
               
 
 
