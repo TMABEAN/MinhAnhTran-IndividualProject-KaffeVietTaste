@@ -538,6 +538,13 @@ main p {
   font-size: 25px;
 }
 
+/* Empty cart */
+.receipt-empty {
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+}
+
 
 /* HERO IMAGE IN BACKGROUND */ 
 /* All of the code about Hero image are from Claude.ai */
