@@ -437,3 +437,120 @@ main p {
     text-align: center;
     white-space: nowrap;
     }
+
+
+
+/* HERO IMAGE IN BACKGROUND */ 
+/* All of the code about Hero image are from Claude.ai */
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('images/EggCoffee.jpeg');
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.05);
+      transition: transform 8s ease;
+    }
+
+
+    /* OVERLAY ON HERO IMAGE */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(20, 10, 5, 0.35) 0%,
+        rgba(20, 10, 5, 0.55) 60%,
+        rgba(20, 10, 5, 0.75) 100%
+      );
+    }
+
+    /* HERO TEXT */
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #fff;
+      padding: 0 24px;
+      animation: heroFadeUp 1.2s ease both;
+    }
+
+    @keyframes heroFadeUp {
+      from { opacity: 0; transform: translateY(32px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-eyebrow {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: #d4a96a;
+      margin: 0 0 16px;
+      animation: heroFadeUp 1.2s 0.1s ease both;
+    }
+
+    .hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(52px, 9vw, 110px);
+      line-height: 0.95;
+      letter-spacing: 3px;
+      margin: 0 0 24px;
+      animation: heroFadeUp 1.2s 0.2s ease both;
+    }
+
+    .hero-sub {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 2vw, 19px);
+      font-weight: 300;
+      color: rgba(255,255,255,0.82);
+      max-width: 480px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+      animation: heroFadeUp 1.2s 0.35s ease both;
+    }
+
+    .hero-btn {
+      display: inline-block;
+      padding: 14px 38px;
+      background: #8b4513;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      border-radius: 8px;
+      transition: background 0.25s, transform 0.2s;
+      animation: heroFadeUp 1.2s 0.5s ease both;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero-btn:hover {
+      background: #6b340f;
+      transform: translateY(-2px);
+    }
+
+    .hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    header,
+    footer {
+    position: relative;
+    z-index: 10;
+    }
+
+    main {
+    position: relative;
+    z-index: 5;
+    }
