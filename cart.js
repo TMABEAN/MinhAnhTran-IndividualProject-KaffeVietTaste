@@ -124,3 +124,17 @@ function clearCart() {
   localStorage.removeItem("cart");
   updateCartCount();
 }
+
+/* =========================================
+   CALCULATE TOTAL PRICE
+========================================= */
+function getCartTotal() {
+  const cart = getCart();
+  let total = 0;
+
+  cart.forEach(item => {
+    total += item.price * item.quantity;
+  });
+
+  return total;
+}
