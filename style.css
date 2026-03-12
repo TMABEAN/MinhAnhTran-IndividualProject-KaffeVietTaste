@@ -8,6 +8,16 @@
      https://fonts.google.com/
    - Bootstrap Examples (UI layout reference)
      https://getbootstrap.com/docs/5.3/examples/
+   - MDN Web Docs: background-size / background-position
+     https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+     https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+   - MDN Web Docs: linear-gradient()
+     https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
+   - MDN Web Docs: CSS animations / @keyframes
+     https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations
+     https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+   - MDN Web Docs: clamp()
+     https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
 
    Notes:
    Some layout ideas were inspired by online UI examples
@@ -742,7 +752,7 @@ main p {
         }
 
 /* HERO IMAGE IN BACKGROUND */ 
-/* All of the code about Hero image are from Claude.ai */
+/* All of the code about Hero image are from Claude.ai assisted */
     .hero-bg {
       position: absolute;
       inset: 0;
