@@ -78,7 +78,13 @@
       cart.forEach(item => {
         const subtotal = item.price * item.quantity;
         total += subtotal; // Add subtotal into final total
-  
+
+
+      // Create one cart row for each item
+        html += `
+        <div class="cart-row">
+
+    
 
 
 
