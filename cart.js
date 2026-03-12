@@ -34,3 +34,14 @@ function addToCart(id, name, price) {
   if (existingItem) { // If already in cart → increase quantity
     existingItem.quantity += 1;
   } else {
+    cart.push({ // If not in cart → create new item
+      id: id,
+      name: name,
+      price: price,
+      quantity: 1
+    });
+  }
+  // Save updated cart
+  saveCart(cart);
+  updateCartCount(); // Update cart number in navigation
+}
