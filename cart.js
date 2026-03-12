@@ -45,3 +45,27 @@ function addToCart(id, name, price) {
   saveCart(cart);
   updateCartCount(); // Update cart number in navigation
 }
+
+/* =========================================
+   ADD PRODUCT WITH CUSTOM QUANTITY
+========================================= */
+
+function addToCartWithQty(id, name, price, quantity) {
+  let cart = getCart();
+
+  const existingItem = cart.find(item => item.id === id);
+
+  if (existingItem) {
+    existingItem.quantity += quantity; 
+  } else {
+    cart.push({
+      id: id,
+      name: name,
+      price: price,
+      quantity: quantity
+    });
+  }
+
+  saveCart(cart);
+  updateCartCount();
+}
