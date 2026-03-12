@@ -163,3 +163,13 @@ function updateCartCount() {
     element.textContent = count;
   });
 }
+
+// Checkout function (for demonstration purposes)
+function checkout() {
+  alert("Thank you for your order!");
+  clearCart();
+  renderCart();
+}
+
+// Src: Claudia.ai
+document.addEventListener("DOMContentLoaded", updateCartCount);
