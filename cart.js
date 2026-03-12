@@ -105,3 +105,13 @@ function decreaseItem(id) {
 
   saveCart(cart);
 }
+
+/* =========================================
+   REMOVE BUTTON
+========================================= */
+function removeItem(id) {
+  let cart = getCart();
+  cart = cart.filter(item => item.id !== id);
+  saveCart(cart);
+  updateCartCount();   // Update cart count in navigation
+}
