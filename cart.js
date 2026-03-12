@@ -85,3 +85,23 @@ function increaseItem(id) {
 
   saveCart(cart);
 }
+
+/* =========================================
+   DECREASE ITEM QUANTITY
+========================================= */
+
+function decreaseItem(id) {
+  let cart = getCart();
+
+  const item = cart.find(product => product.id === id);
+
+  if (item) {
+    item.quantity -= 1;
+
+    if (item.quantity <= 0) { // If quantity reaches 0 → remove item
+      cart = cart.filter(product => product.id !== id);
+    }
+  }
+
+  saveCart(cart);
+}
