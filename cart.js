@@ -13,3 +13,10 @@ function getItemQuantity(id) {
   const item = cart.find(product => product.id === id); // Find the product with matching id
   return item ? item.quantity : 0; 
 }
+
+/* =========================================
+    SAVE CART into localStorage
+========================================= */
+function saveCart(cart) {
+  localStorage.setItem("cart", JSON.stringify(cart));
+}
