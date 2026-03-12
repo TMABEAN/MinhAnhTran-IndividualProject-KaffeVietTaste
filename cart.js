@@ -115,3 +115,12 @@ function removeItem(id) {
   saveCart(cart);
   updateCartCount();   // Update cart count in navigation
 }
+
+/* =========================================
+   CLEAR ENTIRE CART
+========================================= */
+
+function clearCart() {
+  localStorage.removeItem("cart");
+  updateCartCount();
+}
