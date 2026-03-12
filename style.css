@@ -585,6 +585,65 @@ main p {
   }
 }
 
+/* A product: Row 1: Product Name + Quantity box*/
+
+   .cart-item {
+     display: flex;
+     flex-direction: column;
+     gap: 0.4rem;
+     padding: 1rem 0;
+     border-bottom: 1px dashed #c8a97e;
+   }
+   
+   .cart-item-name {
+     font-size: 18px;
+     font-weight: 800;
+     color: var(--brown);
+     line-height: 1.2;
+   }
+   
+   /* Qty controls */
+   .cart-qty-controls {
+     display: flex;
+     align-items: center;
+     gap: 0.4rem;
+     background: none;    
+     border: none;          
+     border-radius: 0;
+     overflow: visible;
+   }
+   
+   .cart-qty-controls button {
+     width: 30px;
+     height: 30px;
+     background: #8b4513;
+     color: #fff;
+     border: none;
+     border-radius: 6px;    
+     font-size: 1rem;
+     font-weight: 700;
+     cursor: pointer;
+     transition: background 0.2s;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .cart-qty-controls button:hover {
+     background: #6b340f;
+   }
+   
+   .cart-qty-controls span {
+     padding: 0 0.5rem;
+     font-weight: 700;
+     font-size: 0.9rem;
+     color: #2c1a0e;
+     min-width: 1.5rem;
+     text-align: center;
+     background: none;      
+   }
+
+
 /* HERO IMAGE IN BACKGROUND */ 
 /* All of the code about Hero image are from Claude.ai */
     .hero-bg {
