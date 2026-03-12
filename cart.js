@@ -1,3 +1,18 @@
+/* ======================================================
+   CART MANAGEMENT SCRIPT
+  
+   References:
+   https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+   https://javascript.info/localstorage
+   https://www.w3schools.com/js/js_api_web_storage.asp
+
+   Notes:
+   Some code logic and structure were developed with the assistance of AI tools (ChatGPT / Claude) and adapted,
+   reviewed, and modified for this project.
+====================================================== */
+
 /* =========================================
 Read cart data from localStorage
 ========================================= */
@@ -171,5 +186,5 @@ function checkout() {
   renderCart();
 }
 
-// Src: Claudia.ai
+// Src: Claude.ai
 document.addEventListener("DOMContentLoaded", updateCartCount);
