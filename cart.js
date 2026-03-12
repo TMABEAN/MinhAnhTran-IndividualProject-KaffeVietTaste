@@ -69,3 +69,19 @@ function addToCartWithQty(id, name, price, quantity) {
   saveCart(cart);
   updateCartCount();
 }
+
+/* =========================================
+   INCREASE ITEM QUANTITY
+========================================= */
+
+function increaseItem(id) {
+  let cart = getCart();
+
+  const item = cart.find(product => product.id === id);
+
+  if (item) {
+    item.quantity += 1;
+  }
+
+  saveCart(cart);
+}
