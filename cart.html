@@ -50,6 +50,15 @@
   <!-- Share cart data -->
   <script src="cart.js"></script>
 
+/* =========================
+    Display all products saved in localStorage
+========================== */
+
+  <script>
+    // Get current cart data from cart.js
+    function renderCart() {
+      const cart = getCart();
+      const cartContent = document.getElementById("cart-content");
   
 
 
