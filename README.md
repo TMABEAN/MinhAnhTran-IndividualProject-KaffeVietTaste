@@ -1,5 +1,10 @@
 ### File Description
 
+Live Website:
+https://tmabean.github.io/MinhAnhTran-IndividualProject-KaffeVietTaste/
+
+_________________
+
 **index.html**  
 Homepage containing the hero section and introduction.
 
