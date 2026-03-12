@@ -1,3 +1,18 @@
+/* ========================================
+   STYLE.CSS — Viet Taste Kaffê
+   This stylesheet was developed for the
+   course project. Some sections were
+   written with AI assistance and then
+   reviewed, edited, and adapted to fit
+   the final website structure.
+
+   Technical references used in this file:
+   - MDN Web Docs (HTML / CSS reference)
+   - Course lectures and exercises
+   - UI Component
+   - https://getbootstrap.com/docs/5.3/examples/
+======================================== */
+
 /* Import Google Fonts for titles and body text */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap');
 
@@ -27,7 +42,6 @@
   box-sizing: border-box;
 }
 
-
 /* Basic page styling: background, font and text spacing */
     body {
     margin: 0;
@@ -36,7 +50,6 @@
     color: var(--black);
     line-height: 1.6;
     }
-
 
 /* Header section containing the site title and navigation */
     header {
@@ -47,7 +60,6 @@
     opacity: 100%;
     }
 
-
 /* Main website title styling */
     header h1 {
     margin: 0 0 12px;
@@ -56,7 +68,6 @@
     letter-spacing: 2px;
     }
 
-
 /* Navigation bar styling */
     nav {
     display: flex;
@@ -64,7 +75,6 @@
     flex-wrap: wrap;
     gap: 60px;
     }
-
 
 /* Navigation links styling */
     nav a {
@@ -77,13 +87,11 @@
     transition: color var(--transition);
     }
 
-
 /* Main content container */
 main {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 /* Section title styling */
 main h2 {
@@ -115,7 +123,6 @@ main p {
     transition: background-color var(--transition), transform var(--transition);
     }
 
-
 /* Product grid layout using CSS Grid */
 .products-grid {
   display: grid;
@@ -129,8 +136,8 @@ main p {
     .product-card {
     background: white;
     padding: 12px;
-    border-radius: 12px;   /* bo góc */
-    width: 220px;          /* làm khung nhỏ lại */
+    border-radius: 12px;   
+    width: 220px;          
     text-align: center;
     margin: auto;
     }
@@ -139,7 +146,7 @@ main p {
     .product-card img {
     width: 100%;
     height: auto;
-    border-radius: 10px;   /* bo góc ảnh */
+    border-radius: 10px;   
     }
 
     .product-card {
@@ -154,7 +161,7 @@ main p {
     color: var(--cream);
     text-align: center;
     padding: 24px 16px;
-    margin-top: 20px;
+    margin-top: 20px;  
     font-size: 14px;
     font-weight: 300; 
     }
