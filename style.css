@@ -551,6 +551,20 @@ main p {
   text-decoration: underline;
 }
 
+/* Buttons under receipt */
+.receipt-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.receipt-buttons .btn {
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
 
 /* HERO IMAGE IN BACKGROUND */ 
 /* All of the code about Hero image are from Claude.ai */
