@@ -2,10 +2,16 @@
    STYLE.CSS — Viet Taste Kaffê
 
    Technical references used in this file:
-   - MDN Web Docs (HTML / CSS reference)
-   - Course lectures and exercises
-   - UI Component
-   - https://getbootstrap.com/docs/5.3/examples/
+   - MDN Web Docs (CSS reference)
+     https://developer.mozilla.org/en-US/docs/Web/CSS
+   - Google Fonts
+     https://fonts.google.com/
+   - Bootstrap Examples (UI layout reference)
+     https://getbootstrap.com/docs/5.3/examples/
+
+   Notes:
+   Some layout ideas were inspired by online UI examples
+   and adapted for this individual academic project.
 ======================================== */
 
 /* Import Google Fonts for titles and body text */
