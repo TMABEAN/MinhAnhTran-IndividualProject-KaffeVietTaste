@@ -564,7 +564,26 @@ main p {
   white-space: nowrap;
 }
 
+/* Responsive layout */
+/* Mobile */
+@media (max-width: 768px) {
+  .receipt-card {
+    padding: 24px 18px;
+  }
 
+  .receipt-title {
+    font-size: 24px;
+  }
+
+  .receipt-line {
+    font-size: 15px;
+  }
+
+  .receipt-buttons .btn {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
 
 /* HERO IMAGE IN BACKGROUND */ 
 /* All of the code about Hero image are from Claude.ai */
