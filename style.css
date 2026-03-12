@@ -166,7 +166,6 @@ main p {
     font-weight: 300; 
     }
 
-
 /* ===== MENU PAGE ===== */
 
 /* Main content container for the menu page */
@@ -181,7 +180,6 @@ main p {
     margin-bottom: 30px;
     font-size: 2rem;
     }
-
 
 /* ===== PRODUCTS' CARDS STYLING ===== */
 
@@ -202,7 +200,7 @@ main p {
     .product-card img {
     width: 100%;
     height: 300px;
-    object-fit: cover;  /* same size img */
+    object-fit: cover;  
     display: block;
     }
 
@@ -217,9 +215,8 @@ main p {
     margin: 0 16px 16px;
     color: #555;
     line-height: 1.5;
-    flex-grow: 1;   /* same size cards */
+    flex-grow: 1;   
     }
-
     
     .product-card span {
     margin: 0 16px 18px;
@@ -233,7 +230,6 @@ main p {
     margin: 0 0 14px;
     color: var(--brown);
     font-weight: 200; 
-  /* Tí update vào git - xuống 700 - 200 */
 }
 
 /* ===== PRODUCTS' CARDS GRID ===== */
@@ -243,8 +239,6 @@ main p {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     }
-
-    /* grid-template-columns: repeat(4, 1fr); chèn cái này trước xong sửa ở GIT */
 
 /* ==== EFFECTS ==== */  
 
@@ -301,7 +295,6 @@ main p {
     }
     }
 
-    
 /* ===== PRODUCT DETAIL PAGE ===== */
 
 .product-detail-page {
@@ -397,6 +390,13 @@ main p {
     .btn-secondary:hover {
     background: #c9ae89;
     }
+
+/* Quantity button styling */
+    .quantity-box {
+    margin-top: 20px;
+    }
+
+
 
 /* ===== RESPONSIVE PRODUCT DETAIL ===== */
     @media (max-width: 768px) {
