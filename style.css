@@ -519,6 +519,24 @@ main p {
   margin-bottom: 8px;
 }
 
+/* Receipt rows */
+.receipt-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.receipt-divider {
+  border-top: 1px dashed #c8a97e;
+  margin: 10px 0;
+}
+
+.total-line {
+  font-weight: bold;
+  font-size: 25px;
+}
 
 
 /* HERO IMAGE IN BACKGROUND */ 
