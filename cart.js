@@ -154,3 +154,12 @@ function getCartCount() {
   return count;
 }
 
+// Update cart count in navigation
+function updateCartCount() {
+  const cartCountElements = document.querySelectorAll(".cart-count");
+  const count = getCartCount();
+
+  cartCountElements.forEach(element => {
+    element.textContent = count;
+  });
+}
