@@ -138,3 +138,19 @@ function getCartTotal() {
 
   return total;
 }
+
+/* =========================================
+nav cart number
+========================================= */
+
+function getCartCount() {
+  const cart = getCart();
+  let count = 0;
+
+  cart.forEach(item => {
+    count += item.quantity;
+  });
+
+  return count;
+}
+
