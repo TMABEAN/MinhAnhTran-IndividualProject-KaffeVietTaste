@@ -84,7 +84,17 @@
         html += `
         <div class="cart-row">
 
-    
+             <!-- Row 1: Product name + qty controls -->
+                <div class="cart-row-top">
+                <span class="cart-item-name">${item.name}</span>
+                <div class="cart-qty-controls">
+                    <button onclick="handleDecrease('${item.id}')">-</button>
+                    <span>${item.quantity}</span>
+                    <button onclick="handleIncrease('${item.id}')">+</button>
+                </div>
+                </div>
+
+              
 
 
 
